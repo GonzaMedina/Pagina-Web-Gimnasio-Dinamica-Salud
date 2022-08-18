@@ -52,7 +52,8 @@ header ul li a{
 
 .titular p{
     margin-bottom: 40px;
-    color: black;
+    -webkit-text-stroke: 0.3px white;
+    font-family: arial; color: black;
 }
 
 h1{
@@ -195,4 +196,9 @@ h2{
     background: #b8de11;
     color: #000;
     font-style: italic;
+}
+
+.contenedor h2{
+    -webkit-text-stroke: 1px greenyellow;
+    font-family: arial; color: black;
 }
