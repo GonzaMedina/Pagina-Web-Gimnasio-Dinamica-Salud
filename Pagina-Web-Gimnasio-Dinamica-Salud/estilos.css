@@ -46,12 +46,13 @@ header ul li a{
 .titular{
     text-align: center;
     margin-top: 40vh;
-    color: black;
+    color: rgb(0, 255, 64);
     box-shadow: -1px 0px 5px #0000001f;
 }
 
 .titular p{
     margin-bottom: 40px;
+    color: black;
 }
 
 h1{
