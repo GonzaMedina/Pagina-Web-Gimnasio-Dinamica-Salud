@@ -1,0 +1,90 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat';
+}
+
+.contenedor{
+    width: 90%;
+    max-width: 1280px;
+    margin: auto;
+}
+
+li{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+header{
+    background: url(imagenes/encabezado.jpg);
+    background-size: cover;
+    height: 100vh;
+}
+
+.menu{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+header ul{
+    display: flex;
+}
+
+header ul li{
+    margin: 0 20px;
+}
+
+header ul li a{
+    color: black;
+}
+
+.titular{
+    text-align: center;
+    margin-top: 40vh;
+    color: black;
+    box-shadow: -1px 0px 5px #0000001f;
+}
+
+.titular p{
+    margin-bottom: 40px;
+}
+
+h1{
+    font-size: 70px;
+    font-style: italic;
+    width: 80%;
+    margin: auto;
+    margin-bottom: 40px;
+    margin-top: -100px;
+}
+
+.titular a{
+    background: black;
+    color: white;
+    padding: 20px 40px;
+}
+
+.contenedor-tarjetas{
+    display: flex;
+    justify-content: center;
+}
+
+.tarjeta{
+    text-align: center;
+    box-shadow: -1px 0px 5px #0000001f;
+    width: 28%;
+}
+
+#segunda-tarjeta{
+    margin: 0 20px;
+
+}
+
+.tarjeta p{
+  font-size: 15px;  
+}
